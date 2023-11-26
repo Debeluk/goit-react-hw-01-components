@@ -1,12 +1,11 @@
 import React from 'react';
 import Profile from './Profile/Profile';
-import user from '../../user.json'; 
+import user from '../data/user.json';
 
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
